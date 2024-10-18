@@ -1,0 +1,138 @@
+/* Cart.css */
+.cart-modal {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.cart-modal-header {
+    background-color: #ff4d4f;
+    color: white;
+    padding: 10px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.cart-modal-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cart-modal-body {
+    padding: 10px 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.cart-empty-message {
+    padding: 10px;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.cart-items-container {
+    margin-top: 10px;
+}
+
+.cart-item-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item-image-col {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-item-img {
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+}
+
+.cart-item-info-col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.cart-item-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-item-price {
+    color: #ff4d4f;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.cart-item-quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.cart-item-quantity-btn {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    background-color: #ff4d4f;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-item-quantity-display {
+    font-size: 1rem;
+}
+
+.cart-item-remove-col {
+    text-align: right;
+}
+
+.cart-item-remove-btn {
+    background-color: #d43f3a;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-total-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.cart-total-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-clear-btn {
+    background-color: #ff4d4f;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-modal-footer {
+    padding: 10px 20px;
+    border-top: 1px solid #ff4d4f;
+    text-align: right;
+}
+
+.cart-modal-close-btn {
+    background-color: #6c757d;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
